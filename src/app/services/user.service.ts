@@ -8,8 +8,7 @@ import {User} from "../models/User";
 })
 export class UserService {
 
-  // private url = 'https://jsonplaceholder.typicode.com/users';
-  private url = 'https://jsonplaceholder.typicode.com/';
+  private url = 'http://localhost:3000/';
 
   private usersUrl = this.url + "users/";
 
