@@ -1,0 +1,16 @@
+div {
+  background-color: inherit;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px;
+  margin: 2px 0;
+  background-color: rgb(236, 240, 250);
+}
+
+.some {
+  width: 20%;
+}

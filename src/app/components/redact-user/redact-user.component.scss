@@ -1,0 +1,57 @@
+form {
+  display: flex;
+  flex-direction: column;
+  background-color: inherit;
+}
+
+input {
+  height: 30px;
+  padding: 5px;
+  outline: none;
+  border: none;
+}
+
+label {
+  background-color: inherit;
+  margin: 5px;
+}
+
+.big {
+  font-size: 15px;
+  background-color: inherit;
+  width: 400px;
+}
+
+.save {
+  background-color: #3c78ff;
+  width: 100px;
+  height: 40px;
+  margin: 10px 0;
+  color: white;
+  border-radius: 5px;
+}
+
+.del {
+  background-color: #ff3c3c;
+  width: 100px;
+  height: 40px;
+  margin: 10px 0;
+  color: white;
+  border-radius: 5px;
+}
+
+.butBox {
+  display: flex;
+  justify-content: center;
+  background-color: inherit;
+}
+
+.heed {
+  display: flex;
+  background-color: inherit;
+}
+
+button {
+  border: none;
+  background-color: inherit;
+}

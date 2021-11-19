@@ -1,0 +1,25 @@
+<div class="main">
+  <div class="biggerBox">
+    <div class="errAndBut">
+      <div class="err">
+        <p>Error massage</p>
+      </div>
+      <div class="but">
+        <button (click)="displayCreateF()">Create User</button>
+      </div>
+    </div>
+
+    <app-users (eventEmitter)="catchUser($event)"></app-users>
+  </div>
+
+  <div class="bigBox">
+    <div class="secBox">
+      <div class="secureMess">
+        <p>Secure massage</p>
+      </div>
+    </div>
+
+    <app-create-user *ngIf="displayCreate" (eventEmitter)="catchDisplayCreate($event)"></app-create-user>
+    <app-redact-user *ngIf="displayRedact" [user]="chosenUser" (eventEmitter)="catchDisplayRedact($event)"></app-redact-user>
+  </div>
+</div>

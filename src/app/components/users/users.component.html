@@ -1,0 +1,11 @@
+<div class="users">
+  <div class="names">
+    <div class="username, name">USERNAME</div>
+    <div class="firstname, name">FIRST NAME</div>
+    <div class="lastName, name">LAST NAME</div>
+    <div class="email, name">EMAIL</div>
+    <div class="type, name">TYPE</div>
+  </div>
+  <app-user *ngFor="let user of users" [user]="user" (eventEmitter)="choseUser($event)"></app-user>
+</div>
+
